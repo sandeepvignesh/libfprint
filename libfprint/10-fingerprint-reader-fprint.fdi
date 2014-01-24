@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created from libfprint 0.1.0-pre2 -->
+<deviceinfo version="0.2">
+  <!-- UPEK TouchStrip -->
+  <match key="usb.vendor_id" int="0x0483">
+   <match key="usb.product_id" int="0x2016">
+    <merge key="info.category" type="string">biometric.fingerprint_reader</merge>
+    <append key="biometric.fingerprint_reader.access_method" type="strlist">libfprint</append>
+    <append key="info.capabilities" type="strlist">biometric</append>
+    <append key="info.capabilities" type="strlist">biometric.fingerprint_reader</append>
+    <merge key="biometric.fingerprint_reader.libfprint.driver" type="string">upekts</merge>
+    <merge key="biometric.fingerprint_reader.libfprint.support" type="bool">true</merge>
+    <append key="biometric.fingerprint_reader.scan_type" type="string">swipe</append>
+   </match>
+  </match>
+  <!-- AuthenTec AES4000 -->
+  <match key="usb.vendor_id" int="0x08ff">
+   <match key="usb.product_id" int="0x5501">
+    <merge key="info.category" type="string">biometric.fingerprint_reader</merge>
+    <append key="biometric.fingerprint_reader.access_method" type="strlist">libfprint</append>
+    <append key="info.capabilities" type="strlist">biometric</append>
+    <append key="info.capabilities" type="strlist">biometric.fingerprint_reader</append>
+    <merge key="biometric.fingerprint_reader.libfprint.driver" type="string">aes4000</merge>
+    <merge key="biometric.fingerprint_reader.libfprint.support" type="bool">true</merge>
+    <append key="biometric.fingerprint_reader.scan_type" type="string">press</append>
+   </match>
+  </match>
+  <!-- AuthenTec AES2501 -->
+  <match key="usb.vendor_id" int="0x08ff">
+   <match key="usb.product_id" int="0x2500">
+    <merge key="info.category" type="string">biometric.fingerprint_reader</merge>
+    <append key="biometric.fingerprint_reader.access_method" type="strlist">libfprint</append>
+    <append key="info.capabilities" type="strlist">biometric</append>
+    <append key="info.capabilities" type="strlist">biometric.fingerprint_reader</append>
+    <merge key="biometric.fingerprint_reader.libfprint.driver" type="string">aes2501</merge>
+    <merge key="biometric.fingerprint_reader.libfprint.support" type="bool">true</merge>
+    <append key="biometric.fingerprint_reader.scan_type" type="string">swipe</append>
+   </match>
+  </match>
+  <!-- AuthenTec AES2501 -->
+  <match key="usb.vendor_id" int="0x08ff">
+   <match key="usb.product_id" int="0x2580">
+    <merge key="info.category" type="string">biometric.fingerprint_reader</merge>
+    <append key="biometric.fingerprint_reader.access_method" type="strlist">libfprint</append>
+    <append key="info.capabilities" type="strlist">biometric</append>
+    <append key="info.capabilities" type="strlist">biometric.fingerprint_reader</append>
+    <merge key="biometric.fingerprint_reader.libfprint.driver" type="string">aes2501</merge>
+    <merge key="biometric.fingerprint_reader.libfprint.support" type="bool">true</merge>
+    <append key="biometric.fingerprint_reader.scan_type" type="string">swipe</append>
+   </match>
+  </match>
+  <!-- Digital Persona U.are.U 4000/4000B -->
+  <match key="usb.vendor_id" int="0x045e">
+   <match key="usb.product_id" int="0x00bb">
+    <merge key="info.category" type="string">biometric.fingerprint_reader</merge>
+    <append key="biometric.fingerprint_reader.access_method" type="strlist">libfprint</append>
+    <append key="info.capabilities" type="strlist">biometric</append>
+    <append key="info.capabilities" type="strlist">biometric.fingerprint_reader</append>
+    <merge key="biometric.fingerprint_reader.libfprint.driver" type="string">uru4000</merge>
+    <merge key="biometric.fingerprint_reader.libfprint.support" type="bool">true</merge>
+    <append key="biometric.fingerprint_reader.scan_type" type="string">press</append>
+   </match>
+  </match>
+  <!-- Digital Persona U.are.U 4000/4000B -->
+  <match key="usb.vendor_id" int="0x045e">
+   <match key="usb.product_id" int="0x00bc">
+    <merge key="info.category" type="string">biometric.fingerprint_reader</merge>
+    <append key="biometric.fingerprint_reader.access_method" type="strlist">libfprint</append>
+    <append key="info.capabilities" type="strlist">biometric</append>
+    <append key="info.capabilities" type="strlist">biometric.fingerprint_reader</append>
+    <merge key="biometric.fingerprint_reader.libfprint.driver" type="string">uru4000</merge>
+    <merge key="biometric.fingerprint_reader.libfprint.support" type="bool">true</merge>
+    <append key="biometric.fingerprint_reader.scan_type" type="string">press</append>
+   </match>
+  </match>
+  <!-- Digital Persona U.are.U 4000/4000B -->
+  <match key="usb.vendor_id" int="0x045e">
+   <match key="usb.product_id" int="0x00bd">
+    <merge key="info.category" type="string">biometric.fingerprint_reader</merge>
+    <append key="biometric.fingerprint_reader.access_method" type="strlist">libfprint</append>
+    <append key="info.capabilities" type="strlist">biometric</append>
+    <append key="info.capabilities" type="strlist">biometric.fingerprint_reader</append>
+    <merge key="biometric.fingerprint_reader.libfprint.driver" type="string">uru4000</merge>
+    <merge key="biometric.fingerprint_reader.libfprint.support" type="bool">true</merge>
+    <append key="biometric.fingerprint_reader.scan_type" type="string">press</append>
+   </match>
+  </match>
+  <!-- Digital Persona U.are.U 4000/4000B -->
+  <match key="usb.vendor_id" int="0x045e">
+   <match key="usb.product_id" int="0x00ca">
+    <merge key="info.category" type="string">biometric.fingerprint_reader</merge>
+    <append key="biometric.fingerprint_reader.access_method" type="strlist">libfprint</append>
+    <append key="info.capabilities" type="strlist">biometric</append>
+    <append key="info.capabilities" type="strlist">biometric.fingerprint_reader</append>
+    <merge key="biometric.fingerprint_reader.libfprint.driver" type="string">uru4000</merge>
+    <merge key="biometric.fingerprint_reader.libfprint.support" type="bool">true</merge>
+    <append key="biometric.fingerprint_reader.scan_type" type="string">press</append>
+   </match>
+  </match>
+  <!-- Digital Persona U.are.U 4000/4000B -->
+  <match key="usb.vendor_id" int="0x05ba">
+   <match key="usb.product_id" int="0x0007">
+    <merge key="info.category" type="string">biometric.fingerprint_reader</merge>
+    <append key="biometric.fingerprint_reader.access_method" type="strlist">libfprint</append>
+    <append key="info.capabilities" type="strlist">biometric</append>
+    <append key="info.capabilities" type="strlist">biometric.fingerprint_reader</append>
+    <merge key="biometric.fingerprint_reader.libfprint.driver" type="string">uru4000</merge>
+    <merge key="biometric.fingerprint_reader.libfprint.support" type="bool">true</merge>
+    <append key="biometric.fingerprint_reader.scan_type" type="string">press</append>
+   </match>
+  </match>
+  <!-- Digital Persona U.are.U 4000/4000B -->
+  <match key="usb.vendor_id" int="0x05ba">
+   <match key="usb.product_id" int="0x0008">
+    <merge key="info.category" type="string">biometric.fingerprint_reader</merge>
+    <append key="biometric.fingerprint_reader.access_method" type="strlist">libfprint</append>
+    <append key="info.capabilities" type="strlist">biometric</append>
+    <append key="info.capabilities" type="strlist">biometric.fingerprint_reader</append>
+    <merge key="biometric.fingerprint_reader.libfprint.driver" type="string">uru4000</merge>
+    <merge key="biometric.fingerprint_reader.libfprint.support" type="bool">true</merge>
+    <append key="biometric.fingerprint_reader.scan_type" type="string">press</append>
+   </match>
+  </match>
+  <!-- Digital Persona U.are.U 4000/4000B -->
+  <match key="usb.vendor_id" int="0x05ba">
+   <match key="usb.product_id" int="0x000a">
+    <merge key="info.category" type="string">biometric.fingerprint_reader</merge>
+    <append key="biometric.fingerprint_reader.access_method" type="strlist">libfprint</append>
+    <append key="info.capabilities" type="strlist">biometric</append>
+    <append key="info.capabilities" type="strlist">biometric.fingerprint_reader</append>
+    <merge key="biometric.fingerprint_reader.libfprint.driver" type="string">uru4000</merge>
+    <merge key="biometric.fingerprint_reader.libfprint.support" type="bool">true</merge>
+    <append key="biometric.fingerprint_reader.scan_type" type="string">press</append>
+   </match>
+  </match>
+  <!-- Veridicom 5thSense -->
+  <match key="usb.vendor_id" int="0x061a">
+   <match key="usb.product_id" int="0x0110">
+    <merge key="info.category" type="string">biometric.fingerprint_reader</merge>
+    <append key="biometric.fingerprint_reader.access_method" type="strlist">libfprint</append>
+    <append key="info.capabilities" type="strlist">biometric</append>
+    <append key="info.capabilities" type="strlist">biometric.fingerprint_reader</append>
+    <merge key="biometric.fingerprint_reader.libfprint.driver" type="string">vcom5s</merge>
+    <merge key="biometric.fingerprint_reader.libfprint.support" type="bool">true</merge>
+    <append key="biometric.fingerprint_reader.scan_type" type="string">press</append>
+   </match>
+  </match>
+  <!-- UPEK TouchStrip Sensor-Only -->
+  <match key="usb.vendor_id" int="0x147e">
+   <match key="usb.product_id" int="0x2016">
+    <merge key="info.category" type="string">biometric.fingerprint_reader</merge>
+    <append key="biometric.fingerprint_reader.access_method" type="strlist">libfprint</append>
+    <append key="info.capabilities" type="strlist">biometric</append>
+    <append key="info.capabilities" type="strlist">biometric.fingerprint_reader</append>
+    <merge key="biometric.fingerprint_reader.libfprint.driver" type="string">upeksonly</merge>
+    <merge key="biometric.fingerprint_reader.libfprint.support" type="bool">true</merge>
+    <append key="biometric.fingerprint_reader.scan_type" type="string">swipe</append>
+   </match>
+  </match>
+</deviceinfo>
